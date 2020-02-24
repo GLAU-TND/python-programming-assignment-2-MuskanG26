@@ -1,3 +1,4 @@
+#Problem 1
 l = eval(input())
 temp =''
 for i in range(len(1)):
@@ -9,3 +10,30 @@ for i in range(len(1)):
 print(l)  
 
 
+#Problem 2
+m=eval(input())
+m=[str(i) for i m]
+m.sort()
+b=""
+for i in range(len(m)-1):
+  if m[i][0]==m[i+1][0] and len(m[i]<len(m[i+1]):
+    b=m[i]
+    m[i]=m[i+1]
+    m[i+1]=b
+for i in range(len(m)-1,-1,-1):
+  c=c+m[i]
+print(int(c))
+
+
+
+#Problem 3
+n=int(input())
+b=bin(n)
+c=str(b)
+nl=0
+for i in range(len(b)):
+  if '1'*i in c:
+    nl=i
+  else:
+    continue
+print(nl)    
