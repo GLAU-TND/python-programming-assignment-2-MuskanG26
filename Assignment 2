@@ -25,15 +25,4 @@ for i in range(len(m)-1,-1,-1):
 print(int(c))
 
 
-
-#Problem 3
-n=int(input())
-b=bin(n)
-c=str(b)
-nl=0
-for i in range(len(b)):
-  if '1'*i in c:
-    nl=i
-  else:
-    continue
-print(nl)    
+    
